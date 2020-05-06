@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+    <graph directed="1"  xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.cs.rpi.edu/XGMML">
+    <att name="selected" value="1" type="boolean" />
+    <att name="name" value="mTOR56_reg.xgmml" type="string"/>
+    <att name="shared name" value="mTOR56_reg.xgmml" type="string"/>
+    
+<node id="mitogen_[EGFR]_ppi+_EGFR_[mitogen]" label="mitogen_[EGFR]_ppi+_EGFR_[mitogen]"><att name="rxnconID" value="mitogen_[EGFR]_ppi+_EGFR_[mitogen]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="EGFR_[mitogen]--mitogen_[EGFR]" label="EGFR_[mitogen]--mitogen_[EGFR]"><att name="rxnconID" value="EGFR_[mitogen]--mitogen_[EGFR]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="state" type="string"/></node>
+<node id="[EGFR]" label="[EGFR]"><att name="rxnconID" value="[EGFR]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="input" type="string"/></node>
+<node id="[mitogen]" label="[mitogen]"><att name="rxnconID" value="[mitogen]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="input" type="string"/></node>
+<node id="mitogen_[EGFR]_ppi-_EGFR_[mitogen]" label="mitogen_[EGFR]_ppi-_EGFR_[mitogen]"><att name="rxnconID" value="mitogen_[EGFR]_ppi-_EGFR_[mitogen]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="RTK_p+_IRS_[(RTK)]" label="RTK_p+_IRS_[(RTK)]"><att name="rxnconID" value="RTK_p+_IRS_[(RTK)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="IRS_[(RTK)]-{p}" label="IRS_[(RTK)]-{p}"><att name="rxnconID" value="IRS_[(RTK)]-{p}" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="state" type="string"/></node>
+<node id="[activatedEGFR]" label="[activatedEGFR]"><att name="rxnconID" value="[activatedEGFR]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="output" type="string"/></node>
+<node id="RTK_p-_IRS_[(RTK)]" label="RTK_p-_IRS_[(RTK)]"><att name="rxnconID" value="RTK_p-_IRS_[(RTK)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="IRS_[pY]_ppi+_PI3K_[SH2]" label="IRS_[pY]_ppi+_PI3K_[SH2]"><att name="rxnconID" value="IRS_[pY]_ppi+_PI3K_[SH2]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="IRS_[pY]--PI3K_[SH2]" label="IRS_[pY]--PI3K_[SH2]"><att name="rxnconID" value="IRS_[pY]--PI3K_[SH2]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="state" type="string"/></node>
+<node id="IRS_[pY]_ppi-_PI3K_[SH2]" label="IRS_[pY]_ppi-_PI3K_[SH2]"><att name="rxnconID" value="IRS_[pY]_ppi-_PI3K_[SH2]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="PI4K3alpha_p+_PI_[(4)]" label="PI4K3alpha_p+_PI_[(4)]"><att name="rxnconID" value="PI4K3alpha_p+_PI_[(4)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="PI_[(4)]-{p}" label="PI_[(4)]-{p}"><att name="rxnconID" value="PI_[(4)]-{p}" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="state" type="string"/></node>
+<node id="PIPK1alpha_p+_PI_[(5)]" label="PIPK1alpha_p+_PI_[(5)]"><att name="rxnconID" value="PIPK1alpha_p+_PI_[(5)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="PI_[(5)]-{p}" label="PI_[(5)]-{p}"><att name="rxnconID" value="PI_[(5)]-{p}" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="state" type="string"/></node>
+<node id="SAC1M1L_p-_PI_[(4)]" label="SAC1M1L_p-_PI_[(4)]"><att name="rxnconID" value="SAC1M1L_p-_PI_[(4)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="SYNJ2_p-_PI_[(5)]" label="SYNJ2_p-_PI_[(5)]"><att name="rxnconID" value="SYNJ2_p-_PI_[(5)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="PI3K_p+_PI_[(3)]" label="PI3K_p+_PI_[(3)]"><att name="rxnconID" value="PI3K_p+_PI_[(3)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="PI_[(3)]-{p}" label="PI_[(3)]-{p}"><att name="rxnconID" value="PI_[(3)]-{p}" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="state" type="string"/></node>
+<node id="[activatedPI3K]" label="[activatedPI3K]"><att name="rxnconID" value="[activatedPI3K]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="output" type="string"/></node>
+<node id="PI45" label="PI45"><att name="rxnconID" value="PI45" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="boolean_and" type="string"/></node>
+<node id="PTEN_p-_PI_[(3)]" label="PTEN_p-_PI_[(3)]"><att name="rxnconID" value="PTEN_p-_PI_[(3)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="AKT2_[PI]_i+_PI_[PH]" label="AKT2_[PI]_i+_PI_[PH]"><att name="rxnconID" value="AKT2_[PI]_i+_PI_[PH]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="AKT2_[PI]--PI_[PH]" label="AKT2_[PI]--PI_[PH]"><att name="rxnconID" value="AKT2_[PI]--PI_[PH]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="state" type="string"/></node>
+<node id="PIP3" label="PIP3"><att name="rxnconID" value="PIP3" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="boolean_and" type="string"/></node>
+<node id="AKT2_[PI]_i-_PI_[PH]" label="AKT2_[PI]_i-_PI_[PH]"><att name="rxnconID" value="AKT2_[PI]_i-_PI_[PH]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="PDK1_p+_AKT2_[(T309)]" label="PDK1_p+_AKT2_[(T309)]"><att name="rxnconID" value="PDK1_p+_AKT2_[(T309)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="AKT2_[(T309)]-{p}" label="AKT2_[(T309)]-{p}"><att name="rxnconID" value="AKT2_[(T309)]-{p}" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="state" type="string"/></node>
+<node id="mTORC2_p+_AKT2_[(S474)]" label="mTORC2_p+_AKT2_[(S474)]"><att name="rxnconID" value="mTORC2_p+_AKT2_[(S474)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="AKT2_[(S474)]-{p}" label="AKT2_[(S474)]-{p}"><att name="rxnconID" value="AKT2_[(S474)]-{p}" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="state" type="string"/></node>
+<node id="nn_p-_AKT2_[(T309)]" label="nn_p-_AKT2_[(T309)]"><att name="rxnconID" value="nn_p-_AKT2_[(T309)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="nn_p-_AKT2_[(S474)]" label="nn_p-_AKT2_[(S474)]"><att name="rxnconID" value="nn_p-_AKT2_[(S474)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="AKT2_p+_TSC2_[(Ser939)]" label="AKT2_p+_TSC2_[(Ser939)]"><att name="rxnconID" value="AKT2_p+_TSC2_[(Ser939)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="TSC2_[(Ser939)]-{p}" label="TSC2_[(Ser939)]-{p}"><att name="rxnconID" value="TSC2_[(Ser939)]-{p}" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="state" type="string"/></node>
+<node id="enhancedAKT2" label="enhancedAKT2"><att name="rxnconID" value="enhancedAKT2" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="boolean_and" type="string"/></node>
+<node id="AKT2_p+_TSC2_[(Thr1462)]" label="AKT2_p+_TSC2_[(Thr1462)]"><att name="rxnconID" value="AKT2_p+_TSC2_[(Thr1462)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="TSC2_[(Thr1462)]-{p}" label="TSC2_[(Thr1462)]-{p}"><att name="rxnconID" value="TSC2_[(Thr1462)]-{p}" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="state" type="string"/></node>
+<node id="AKT2_p+_TSC2_[(Ser981)]" label="AKT2_p+_TSC2_[(Ser981)]"><att name="rxnconID" value="AKT2_p+_TSC2_[(Ser981)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="TSC2_[(Ser981)]-{p}" label="TSC2_[(Ser981)]-{p}"><att name="rxnconID" value="TSC2_[(Ser981)]-{p}" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="state" type="string"/></node>
+<node id="AKT2_p+_TSC2_[(Ser1130)]" label="AKT2_p+_TSC2_[(Ser1130)]"><att name="rxnconID" value="AKT2_p+_TSC2_[(Ser1130)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="TSC2_[(Ser1130)]-{p}" label="TSC2_[(Ser1130)]-{p}"><att name="rxnconID" value="TSC2_[(Ser1130)]-{p}" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="state" type="string"/></node>
+<node id="AKT2_p+_PPM1G_[(AKT2)]" label="AKT2_p+_PPM1G_[(AKT2)]"><att name="rxnconID" value="AKT2_p+_PPM1G_[(AKT2)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="PPM1G_[(AKT2)]-{p}" label="PPM1G_[(AKT2)]-{p}"><att name="rxnconID" value="PPM1G_[(AKT2)]-{p}" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="state" type="string"/></node>
+<node id="un_p-_PPM1G_[(AKT2)]" label="un_p-_PPM1G_[(AKT2)]"><att name="rxnconID" value="un_p-_PPM1G_[(AKT2)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="nk_p-_TSC2_[(Ser939)]" label="nk_p-_TSC2_[(Ser939)]"><att name="rxnconID" value="nk_p-_TSC2_[(Ser939)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="nk_p-_TSC2_[(Thr1462)]" label="nk_p-_TSC2_[(Thr1462)]"><att name="rxnconID" value="nk_p-_TSC2_[(Thr1462)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="nk_p-_TSC2_[(Ser981)]" label="nk_p-_TSC2_[(Ser981)]"><att name="rxnconID" value="nk_p-_TSC2_[(Ser981)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="nk_p-_TSC2_[(Ser1130)]" label="nk_p-_TSC2_[(Ser1130)]"><att name="rxnconID" value="nk_p-_TSC2_[(Ser1130)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="TSC1_[Cterminus]_ppi+_TSC2_[Nterminus]" label="TSC1_[Cterminus]_ppi+_TSC2_[Nterminus]"><att name="rxnconID" value="TSC1_[Cterminus]_ppi+_TSC2_[Nterminus]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="TSC1_[Cterminus]--TSC2_[Nterminus]" label="TSC1_[Cterminus]--TSC2_[Nterminus]"><att name="rxnconID" value="TSC1_[Cterminus]--TSC2_[Nterminus]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="state" type="string"/></node>
+<node id="destabilization" label="destabilization"><att name="rxnconID" value="destabilization" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="boolean_and" type="string"/></node>
+<node id="TSC1_[Cterminus]_ppi-_TSC2_[Nterminus]" label="TSC1_[Cterminus]_ppi-_TSC2_[Nterminus]"><att name="rxnconID" value="TSC1_[Cterminus]_ppi-_TSC2_[Nterminus]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="GTP_gef_RHEB_[(G)]" label="GTP_gef_RHEB_[(G)]"><att name="rxnconID" value="GTP_gef_RHEB_[(G)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="RHEB_[(G)]-{gtp}" label="RHEB_[(G)]-{gtp}"><att name="rxnconID" value="RHEB_[(G)]-{gtp}" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="state" type="string"/></node>
+<node id="TSC2_gap_RHEB_[(G)]" label="TSC2_gap_RHEB_[(G)]"><att name="rxnconID" value="TSC2_gap_RHEB_[(G)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="RHEB_[switch1]_ppi+_mTOR_[Mheatmα2mα3mα4]" label="RHEB_[switch1]_ppi+_mTOR_[Mheatmα2mα3mα4]"><att name="rxnconID" value="RHEB_[switch1]_ppi+_mTOR_[Mheatmα2mα3mα4]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="RHEB_[switch1]--mTOR_[Mheatmα2mα3mα4]" label="RHEB_[switch1]--mTOR_[Mheatmα2mα3mα4]"><att name="rxnconID" value="RHEB_[switch1]--mTOR_[Mheatmα2mα3mα4]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="state" type="string"/></node>
+<node id="RHEB_[switch1]_ppi-_mTOR_[Mheatmα2mα3mα4]" label="RHEB_[switch1]_ppi-_mTOR_[Mheatmα2mα3mα4]"><att name="rxnconID" value="RHEB_[switch1]_ppi-_mTOR_[Mheatmα2mα3mα4]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="RHEB_[switch2GQDEYSIFPQTYSIDIN]_ppi+_mTOR_[Nheatnα3tonα7]" label="RHEB_[switch2GQDEYSIFPQTYSIDIN]_ppi+_mTOR_[Nheatnα3tonα7]"><att name="rxnconID" value="RHEB_[switch2GQDEYSIFPQTYSIDIN]_ppi+_mTOR_[Nheatnα3tonα7]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="RHEB_[switch2GQDEYSIFPQTYSIDIN]--mTOR_[Nheatnα3tonα7]" label="RHEB_[switch2GQDEYSIFPQTYSIDIN]--mTOR_[Nheatnα3tonα7]"><att name="rxnconID" value="RHEB_[switch2GQDEYSIFPQTYSIDIN]--mTOR_[Nheatnα3tonα7]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="state" type="string"/></node>
+<node id="RHEB_[switch2GQDEYSIFPQTYSIDIN]_ppi-_mTOR_[Nheatnα3tonα7]" label="RHEB_[switch2GQDEYSIFPQTYSIDIN]_ppi-_mTOR_[Nheatnα3tonα7]"><att name="rxnconID" value="RHEB_[switch2GQDEYSIFPQTYSIDIN]_ppi-_mTOR_[Nheatnα3tonα7]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="RHEB_[switch1DSYDPTIEN]_ppi+_mTOR_[FATfα2fα3]" label="RHEB_[switch1DSYDPTIEN]_ppi+_mTOR_[FATfα2fα3]"><att name="rxnconID" value="RHEB_[switch1DSYDPTIEN]_ppi+_mTOR_[FATfα2fα3]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="RHEB_[switch1DSYDPTIEN]--mTOR_[FATfα2fα3]" label="RHEB_[switch1DSYDPTIEN]--mTOR_[FATfα2fα3]"><att name="rxnconID" value="RHEB_[switch1DSYDPTIEN]--mTOR_[FATfα2fα3]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="state" type="string"/></node>
+<node id="RHEB_[switch1DSYDPTIEN]_ppi-_mTOR_[FATfα2fα3]" label="RHEB_[switch1DSYDPTIEN]_ppi-_mTOR_[FATfα2fα3]"><att name="rxnconID" value="RHEB_[switch1DSYDPTIEN]_ppi-_mTOR_[FATfα2fα3]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="mTOR_[Raptor]_ppi+_Raptor_[mTOR]" label="mTOR_[Raptor]_ppi+_Raptor_[mTOR]"><att name="rxnconID" value="mTOR_[Raptor]_ppi+_Raptor_[mTOR]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="Raptor_[mTOR]--mTOR_[Raptor]" label="Raptor_[mTOR]--mTOR_[Raptor]"><att name="rxnconID" value="Raptor_[mTOR]--mTOR_[Raptor]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="state" type="string"/></node>
+<node id="[Raptor]" label="[Raptor]"><att name="rxnconID" value="[Raptor]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="input" type="string"/></node>
+<node id="[mTOR]" label="[mTOR]"><att name="rxnconID" value="[mTOR]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="input" type="string"/></node>
+<node id="eIF4E_[A001]_ppi+_EIF4EBP1_[A001]" label="eIF4E_[A001]_ppi+_EIF4EBP1_[A001]"><att name="rxnconID" value="eIF4E_[A001]_ppi+_EIF4EBP1_[A001]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="EIF4EBP1_[A001]--eIF4E_[A001]" label="EIF4EBP1_[A001]--eIF4E_[A001]"><att name="rxnconID" value="EIF4EBP1_[A001]--eIF4E_[A001]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="state" type="string"/></node>
+<node id="[EIF4EBP1]" label="[EIF4EBP1]"><att name="rxnconID" value="[EIF4EBP1]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="input" type="string"/></node>
+<node id="[eIF4E]" label="[eIF4E]"><att name="rxnconID" value="[eIF4E]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="input" type="string"/></node>
+<node id="translation" label="translation"><att name="rxnconID" value="translation" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="boolean_and" type="string"/></node>
+<node id="EIF4EBP1_[(Thr46)]-{p}" label="EIF4EBP1_[(Thr46)]-{p}"><att name="rxnconID" value="EIF4EBP1_[(Thr46)]-{p}" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="state" type="string"/></node>
+<node id="EIF4EBP1_[(Thr37)]-{p}" label="EIF4EBP1_[(Thr37)]-{p}"><att name="rxnconID" value="EIF4EBP1_[(Thr37)]-{p}" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="state" type="string"/></node>
+<node id="EIF4EBP1_[(Ser65)]-{p}" label="EIF4EBP1_[(Ser65)]-{p}"><att name="rxnconID" value="EIF4EBP1_[(Ser65)]-{p}" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="state" type="string"/></node>
+<node id="EIF4EBP1_[(Thr70)]-{p}" label="EIF4EBP1_[(Thr70)]-{p}"><att name="rxnconID" value="EIF4EBP1_[(Thr70)]-{p}" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="state" type="string"/></node>
+<node id="eIF4E_[A001]_ppi-_EIF4EBP1_[A001]" label="eIF4E_[A001]_ppi-_EIF4EBP1_[A001]"><att name="rxnconID" value="eIF4E_[A001]_ppi-_EIF4EBP1_[A001]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="mTORC1_p+_EIF4EBP1_[(Thr37)]" label="mTORC1_p+_EIF4EBP1_[(Thr37)]"><att name="rxnconID" value="mTORC1_p+_EIF4EBP1_[(Thr37)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="mTORC1" label="mTORC1"><att name="rxnconID" value="mTORC1" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="boolean_and" type="string"/></node>
+<node id="mTORC1_p+_EIF4EBP1_[(Thr46)]" label="mTORC1_p+_EIF4EBP1_[(Thr46)]"><att name="rxnconID" value="mTORC1_p+_EIF4EBP1_[(Thr46)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="mTORC1_p+_EIF4EBP1_[(Ser65)]" label="mTORC1_p+_EIF4EBP1_[(Ser65)]"><att name="rxnconID" value="mTORC1_p+_EIF4EBP1_[(Ser65)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="mTORC1_p+_EIF4EBP1_[(Thr70)]" label="mTORC1_p+_EIF4EBP1_[(Thr70)]"><att name="rxnconID" value="mTORC1_p+_EIF4EBP1_[(Thr70)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="PPM1G_p-_EIF4EBP1_[(Thr37)]" label="PPM1G_p-_EIF4EBP1_[(Thr37)]"><att name="rxnconID" value="PPM1G_p-_EIF4EBP1_[(Thr37)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="PPM1G_p-_EIF4EBP1_[(Thr46)]" label="PPM1G_p-_EIF4EBP1_[(Thr46)]"><att name="rxnconID" value="PPM1G_p-_EIF4EBP1_[(Thr46)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="PPM1G_p-_EIF4EBP1_[(Ser65)]" label="PPM1G_p-_EIF4EBP1_[(Ser65)]"><att name="rxnconID" value="PPM1G_p-_EIF4EBP1_[(Ser65)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="PPM1G_p-_EIF4EBP1_[(Thr70)]" label="PPM1G_p-_EIF4EBP1_[(Thr70)]"><att name="rxnconID" value="PPM1G_p-_EIF4EBP1_[(Thr70)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="eIF4E_[A001]_ppi+_eIF4G_[A002]" label="eIF4E_[A001]_ppi+_eIF4G_[A002]"><att name="rxnconID" value="eIF4E_[A001]_ppi+_eIF4G_[A002]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="eIF4E_[A001]--eIF4G_[A002]" label="eIF4E_[A001]--eIF4G_[A002]"><att name="rxnconID" value="eIF4E_[A001]--eIF4G_[A002]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="state" type="string"/></node>
+<node id="[eIF4G]" label="[eIF4G]"><att name="rxnconID" value="[eIF4G]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="input" type="string"/></node>
+<node id="eIF4E_[A001]_ppi-_eIF4G_[A002]" label="eIF4E_[A001]_ppi-_eIF4G_[A002]"><att name="rxnconID" value="eIF4E_[A001]_ppi-_eIF4G_[A002]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="[Output]" label="[Output]"><att name="rxnconID" value="[Output]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="output" type="string"/></node>
+<edge source="mitogen_[EGFR]_ppi+_EGFR_[mitogen]" target="EGFR_[mitogen]--mitogen_[EGFR]"><att name="interaction" value="produce" type="string"/></edge>
+<edge source="EGFR_[mitogen]--mitogen_[EGFR]" target="mitogen_[EGFR]_ppi-_EGFR_[mitogen]"><att name="interaction" value="ss" type="string"/></edge>
+<edge source="EGFR_[mitogen]--mitogen_[EGFR]" target="[activatedEGFR]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="[EGFR]" target="mitogen_[EGFR]_ppi+_EGFR_[mitogen]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="[mitogen]" target="mitogen_[EGFR]_ppi+_EGFR_[mitogen]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="mitogen_[EGFR]_ppi-_EGFR_[mitogen]" target="EGFR_[mitogen]--mitogen_[EGFR]"><att name="interaction" value="consume" type="string"/></edge>
+<edge source="RTK_p+_IRS_[(RTK)]" target="IRS_[(RTK)]-{p}"><att name="interaction" value="produce" type="string"/></edge>
+<edge source="IRS_[(RTK)]-{p}" target="RTK_p-_IRS_[(RTK)]"><att name="interaction" value="ss" type="string"/></edge>
+<edge source="IRS_[(RTK)]-{p}" target="IRS_[pY]_ppi+_PI3K_[SH2]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="[activatedEGFR]" target="RTK_p+_IRS_[(RTK)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="RTK_p-_IRS_[(RTK)]" target="IRS_[(RTK)]-{p}"><att name="interaction" value="consume" type="string"/></edge>
+<edge source="IRS_[pY]_ppi+_PI3K_[SH2]" target="IRS_[pY]--PI3K_[SH2]"><att name="interaction" value="produce" type="string"/></edge>
+<edge source="IRS_[pY]--PI3K_[SH2]" target="IRS_[pY]_ppi-_PI3K_[SH2]"><att name="interaction" value="ss" type="string"/></edge>
+<edge source="IRS_[pY]--PI3K_[SH2]" target="[activatedPI3K]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="IRS_[pY]_ppi-_PI3K_[SH2]" target="IRS_[pY]--PI3K_[SH2]"><att name="interaction" value="consume" type="string"/></edge>
+<edge source="PI4K3alpha_p+_PI_[(4)]" target="PI_[(4)]-{p}"><att name="interaction" value="produce" type="string"/></edge>
+<edge source="PI_[(4)]-{p}" target="PIPK1alpha_p+_PI_[(5)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="PI_[(4)]-{p}" target="SAC1M1L_p-_PI_[(4)]"><att name="interaction" value="ss" type="string"/></edge>
+<edge source="PI_[(4)]-{p}" target="PI45"><att name="interaction" value="AND" type="string"/></edge>
+<edge source="PI_[(4)]-{p}" target="PIP3"><att name="interaction" value="AND" type="string"/></edge>
+<edge source="PIPK1alpha_p+_PI_[(5)]" target="PI_[(5)]-{p}"><att name="interaction" value="produce" type="string"/></edge>
+<edge source="PI_[(5)]-{p}" target="SYNJ2_p-_PI_[(5)]"><att name="interaction" value="ss" type="string"/></edge>
+<edge source="PI_[(5)]-{p}" target="PI45"><att name="interaction" value="AND" type="string"/></edge>
+<edge source="PI_[(5)]-{p}" target="PIP3"><att name="interaction" value="AND" type="string"/></edge>
+<edge source="SAC1M1L_p-_PI_[(4)]" target="PI_[(4)]-{p}"><att name="interaction" value="consume" type="string"/></edge>
+<edge source="SYNJ2_p-_PI_[(5)]" target="PI_[(5)]-{p}"><att name="interaction" value="consume" type="string"/></edge>
+<edge source="PI3K_p+_PI_[(3)]" target="PI_[(3)]-{p}"><att name="interaction" value="produce" type="string"/></edge>
+<edge source="PI_[(3)]-{p}" target="PTEN_p-_PI_[(3)]"><att name="interaction" value="ss" type="string"/></edge>
+<edge source="PI_[(3)]-{p}" target="PIP3"><att name="interaction" value="AND" type="string"/></edge>
+<edge source="[activatedPI3K]" target="PI3K_p+_PI_[(3)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="PI45" target="PI3K_p+_PI_[(3)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="PTEN_p-_PI_[(3)]" target="PI_[(3)]-{p}"><att name="interaction" value="consume" type="string"/></edge>
+<edge source="AKT2_[PI]_i+_PI_[PH]" target="AKT2_[PI]--PI_[PH]"><att name="interaction" value="produce" type="string"/></edge>
+<edge source="AKT2_[PI]--PI_[PH]" target="AKT2_[PI]_i-_PI_[PH]"><att name="interaction" value="ss" type="string"/></edge>
+<edge source="AKT2_[PI]--PI_[PH]" target="PDK1_p+_AKT2_[(T309)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="AKT2_[PI]--PI_[PH]" target="mTORC2_p+_AKT2_[(S474)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="PIP3" target="AKT2_[PI]_i+_PI_[PH]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="AKT2_[PI]_i-_PI_[PH]" target="AKT2_[PI]--PI_[PH]"><att name="interaction" value="consume" type="string"/></edge>
+<edge source="PDK1_p+_AKT2_[(T309)]" target="AKT2_[(T309)]-{p}"><att name="interaction" value="produce" type="string"/></edge>
+<edge source="AKT2_[(T309)]-{p}" target="nn_p-_AKT2_[(T309)]"><att name="interaction" value="ss" type="string"/></edge>
+<edge source="AKT2_[(T309)]-{p}" target="enhancedAKT2"><att name="interaction" value="AND" type="string"/></edge>
+<edge source="mTORC2_p+_AKT2_[(S474)]" target="AKT2_[(S474)]-{p}"><att name="interaction" value="produce" type="string"/></edge>
+<edge source="AKT2_[(S474)]-{p}" target="nn_p-_AKT2_[(S474)]"><att name="interaction" value="ss" type="string"/></edge>
+<edge source="AKT2_[(S474)]-{p}" target="enhancedAKT2"><att name="interaction" value="AND" type="string"/></edge>
+<edge source="nn_p-_AKT2_[(T309)]" target="AKT2_[(T309)]-{p}"><att name="interaction" value="consume" type="string"/></edge>
+<edge source="nn_p-_AKT2_[(S474)]" target="AKT2_[(S474)]-{p}"><att name="interaction" value="consume" type="string"/></edge>
+<edge source="AKT2_p+_TSC2_[(Ser939)]" target="TSC2_[(Ser939)]-{p}"><att name="interaction" value="produce" type="string"/></edge>
+<edge source="TSC2_[(Ser939)]-{p}" target="nk_p-_TSC2_[(Ser939)]"><att name="interaction" value="ss" type="string"/></edge>
+<edge source="TSC2_[(Ser939)]-{p}" target="destabilization"><att name="interaction" value="AND" type="string"/></edge>
+<edge source="enhancedAKT2" target="AKT2_p+_TSC2_[(Ser939)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="enhancedAKT2" target="AKT2_p+_TSC2_[(Thr1462)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="enhancedAKT2" target="AKT2_p+_TSC2_[(Ser981)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="enhancedAKT2" target="AKT2_p+_TSC2_[(Ser1130)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="enhancedAKT2" target="AKT2_p+_PPM1G_[(AKT2)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="enhancedAKT2" target="un_p-_PPM1G_[(AKT2)]"><att name="interaction" value="x" type="string"/></edge>
+<edge source="AKT2_p+_TSC2_[(Thr1462)]" target="TSC2_[(Thr1462)]-{p}"><att name="interaction" value="produce" type="string"/></edge>
+<edge source="TSC2_[(Thr1462)]-{p}" target="nk_p-_TSC2_[(Thr1462)]"><att name="interaction" value="ss" type="string"/></edge>
+<edge source="TSC2_[(Thr1462)]-{p}" target="destabilization"><att name="interaction" value="AND" type="string"/></edge>
+<edge source="AKT2_p+_TSC2_[(Ser981)]" target="TSC2_[(Ser981)]-{p}"><att name="interaction" value="produce" type="string"/></edge>
+<edge source="TSC2_[(Ser981)]-{p}" target="nk_p-_TSC2_[(Ser981)]"><att name="interaction" value="ss" type="string"/></edge>
+<edge source="TSC2_[(Ser981)]-{p}" target="destabilization"><att name="interaction" value="AND" type="string"/></edge>
+<edge source="AKT2_p+_TSC2_[(Ser1130)]" target="TSC2_[(Ser1130)]-{p}"><att name="interaction" value="produce" type="string"/></edge>
+<edge source="TSC2_[(Ser1130)]-{p}" target="nk_p-_TSC2_[(Ser1130)]"><att name="interaction" value="ss" type="string"/></edge>
+<edge source="TSC2_[(Ser1130)]-{p}" target="destabilization"><att name="interaction" value="AND" type="string"/></edge>
+<edge source="AKT2_p+_PPM1G_[(AKT2)]" target="PPM1G_[(AKT2)]-{p}"><att name="interaction" value="produce" type="string"/></edge>
+<edge source="PPM1G_[(AKT2)]-{p}" target="un_p-_PPM1G_[(AKT2)]"><att name="interaction" value="ss" type="string"/></edge>
+<edge source="PPM1G_[(AKT2)]-{p}" target="PPM1G_p-_EIF4EBP1_[(Thr37)]"><att name="interaction" value="x" type="string"/></edge>
+<edge source="PPM1G_[(AKT2)]-{p}" target="PPM1G_p-_EIF4EBP1_[(Thr46)]"><att name="interaction" value="x" type="string"/></edge>
+<edge source="PPM1G_[(AKT2)]-{p}" target="PPM1G_p-_EIF4EBP1_[(Ser65)]"><att name="interaction" value="x" type="string"/></edge>
+<edge source="PPM1G_[(AKT2)]-{p}" target="PPM1G_p-_EIF4EBP1_[(Thr70)]"><att name="interaction" value="x" type="string"/></edge>
+<edge source="un_p-_PPM1G_[(AKT2)]" target="PPM1G_[(AKT2)]-{p}"><att name="interaction" value="consume" type="string"/></edge>
+<edge source="nk_p-_TSC2_[(Ser939)]" target="TSC2_[(Ser939)]-{p}"><att name="interaction" value="consume" type="string"/></edge>
+<edge source="nk_p-_TSC2_[(Thr1462)]" target="TSC2_[(Thr1462)]-{p}"><att name="interaction" value="consume" type="string"/></edge>
+<edge source="nk_p-_TSC2_[(Ser981)]" target="TSC2_[(Ser981)]-{p}"><att name="interaction" value="consume" type="string"/></edge>
+<edge source="nk_p-_TSC2_[(Ser1130)]" target="TSC2_[(Ser1130)]-{p}"><att name="interaction" value="consume" type="string"/></edge>
+<edge source="TSC1_[Cterminus]_ppi+_TSC2_[Nterminus]" target="TSC1_[Cterminus]--TSC2_[Nterminus]"><att name="interaction" value="produce" type="string"/></edge>
+<edge source="TSC1_[Cterminus]--TSC2_[Nterminus]" target="TSC1_[Cterminus]_ppi-_TSC2_[Nterminus]"><att name="interaction" value="ss" type="string"/></edge>
+<edge source="TSC1_[Cterminus]--TSC2_[Nterminus]" target="TSC2_gap_RHEB_[(G)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="destabilization" target="TSC1_[Cterminus]_ppi+_TSC2_[Nterminus]"><att name="interaction" value="x" type="string"/></edge>
+<edge source="destabilization" target="TSC1_[Cterminus]_ppi-_TSC2_[Nterminus]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="destabilization" target="GTP_gef_RHEB_[(G)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="TSC1_[Cterminus]_ppi-_TSC2_[Nterminus]" target="TSC1_[Cterminus]--TSC2_[Nterminus]"><att name="interaction" value="consume" type="string"/></edge>
+<edge source="GTP_gef_RHEB_[(G)]" target="RHEB_[(G)]-{gtp}"><att name="interaction" value="produce" type="string"/></edge>
+<edge source="RHEB_[(G)]-{gtp}" target="TSC2_gap_RHEB_[(G)]"><att name="interaction" value="ss" type="string"/></edge>
+<edge source="RHEB_[(G)]-{gtp}" target="RHEB_[switch1]_ppi+_mTOR_[Mheatmα2mα3mα4]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="RHEB_[(G)]-{gtp}" target="RHEB_[switch2GQDEYSIFPQTYSIDIN]_ppi+_mTOR_[Nheatnα3tonα7]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="RHEB_[(G)]-{gtp}" target="RHEB_[switch1DSYDPTIEN]_ppi+_mTOR_[FATfα2fα3]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="TSC2_gap_RHEB_[(G)]" target="RHEB_[(G)]-{gtp}"><att name="interaction" value="consume" type="string"/></edge>
+<edge source="RHEB_[switch1]_ppi+_mTOR_[Mheatmα2mα3mα4]" target="RHEB_[switch1]--mTOR_[Mheatmα2mα3mα4]"><att name="interaction" value="produce" type="string"/></edge>
+<edge source="RHEB_[switch1]--mTOR_[Mheatmα2mα3mα4]" target="RHEB_[switch1]_ppi-_mTOR_[Mheatmα2mα3mα4]"><att name="interaction" value="ss" type="string"/></edge>
+<edge source="RHEB_[switch1]--mTOR_[Mheatmα2mα3mα4]" target="mTORC1"><att name="interaction" value="AND" type="string"/></edge>
+<edge source="RHEB_[switch1]_ppi-_mTOR_[Mheatmα2mα3mα4]" target="RHEB_[switch1]--mTOR_[Mheatmα2mα3mα4]"><att name="interaction" value="consume" type="string"/></edge>
+<edge source="RHEB_[switch2GQDEYSIFPQTYSIDIN]_ppi+_mTOR_[Nheatnα3tonα7]" target="RHEB_[switch2GQDEYSIFPQTYSIDIN]--mTOR_[Nheatnα3tonα7]"><att name="interaction" value="produce" type="string"/></edge>
+<edge source="RHEB_[switch2GQDEYSIFPQTYSIDIN]--mTOR_[Nheatnα3tonα7]" target="RHEB_[switch2GQDEYSIFPQTYSIDIN]_ppi-_mTOR_[Nheatnα3tonα7]"><att name="interaction" value="ss" type="string"/></edge>
+<edge source="RHEB_[switch2GQDEYSIFPQTYSIDIN]--mTOR_[Nheatnα3tonα7]" target="mTORC1"><att name="interaction" value="AND" type="string"/></edge>
+<edge source="RHEB_[switch2GQDEYSIFPQTYSIDIN]_ppi-_mTOR_[Nheatnα3tonα7]" target="RHEB_[switch2GQDEYSIFPQTYSIDIN]--mTOR_[Nheatnα3tonα7]"><att name="interaction" value="consume" type="string"/></edge>
+<edge source="RHEB_[switch1DSYDPTIEN]_ppi+_mTOR_[FATfα2fα3]" target="RHEB_[switch1DSYDPTIEN]--mTOR_[FATfα2fα3]"><att name="interaction" value="produce" type="string"/></edge>
+<edge source="RHEB_[switch1DSYDPTIEN]--mTOR_[FATfα2fα3]" target="RHEB_[switch1DSYDPTIEN]_ppi-_mTOR_[FATfα2fα3]"><att name="interaction" value="ss" type="string"/></edge>
+<edge source="RHEB_[switch1DSYDPTIEN]--mTOR_[FATfα2fα3]" target="mTORC1"><att name="interaction" value="AND" type="string"/></edge>
+<edge source="RHEB_[switch1DSYDPTIEN]_ppi-_mTOR_[FATfα2fα3]" target="RHEB_[switch1DSYDPTIEN]--mTOR_[FATfα2fα3]"><att name="interaction" value="consume" type="string"/></edge>
+<edge source="mTOR_[Raptor]_ppi+_Raptor_[mTOR]" target="Raptor_[mTOR]--mTOR_[Raptor]"><att name="interaction" value="produce" type="string"/></edge>
+<edge source="Raptor_[mTOR]--mTOR_[Raptor]" target="mTORC1"><att name="interaction" value="AND" type="string"/></edge>
+<edge source="[Raptor]" target="mTOR_[Raptor]_ppi+_Raptor_[mTOR]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="[mTOR]" target="mTOR_[Raptor]_ppi+_Raptor_[mTOR]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="eIF4E_[A001]_ppi+_EIF4EBP1_[A001]" target="EIF4EBP1_[A001]--eIF4E_[A001]"><att name="interaction" value="produce" type="string"/></edge>
+<edge source="EIF4EBP1_[A001]--eIF4E_[A001]" target="eIF4E_[A001]_ppi-_EIF4EBP1_[A001]"><att name="interaction" value="ss" type="string"/></edge>
+<edge source="EIF4EBP1_[A001]--eIF4E_[A001]" target="mTORC1_p+_EIF4EBP1_[(Thr37)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="EIF4EBP1_[A001]--eIF4E_[A001]" target="mTORC1_p+_EIF4EBP1_[(Thr46)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="EIF4EBP1_[A001]--eIF4E_[A001]" target="mTORC1_p+_EIF4EBP1_[(Ser65)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="EIF4EBP1_[A001]--eIF4E_[A001]" target="mTORC1_p+_EIF4EBP1_[(Thr70)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="EIF4EBP1_[A001]--eIF4E_[A001]" target="eIF4E_[A001]_ppi+_eIF4G_[A002]"><att name="interaction" value="x" type="string"/></edge>
+<edge source="[EIF4EBP1]" target="eIF4E_[A001]_ppi+_EIF4EBP1_[A001]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="[eIF4E]" target="eIF4E_[A001]_ppi+_EIF4EBP1_[A001]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="[eIF4E]" target="eIF4E_[A001]_ppi+_eIF4G_[A002]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="translation" target="eIF4E_[A001]_ppi+_EIF4EBP1_[A001]"><att name="interaction" value="x" type="string"/></edge>
+<edge source="translation" target="eIF4E_[A001]_ppi-_EIF4EBP1_[A001]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="translation" target="eIF4E_[A001]_ppi+_eIF4G_[A002]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="EIF4EBP1_[(Thr46)]-{p}" target="translation"><att name="interaction" value="AND" type="string"/></edge>
+<edge source="EIF4EBP1_[(Thr46)]-{p}" target="mTORC1_p+_EIF4EBP1_[(Ser65)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="EIF4EBP1_[(Thr46)]-{p}" target="mTORC1_p+_EIF4EBP1_[(Thr70)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="EIF4EBP1_[(Thr46)]-{p}" target="PPM1G_p-_EIF4EBP1_[(Thr46)]"><att name="interaction" value="ss" type="string"/></edge>
+<edge source="EIF4EBP1_[(Thr37)]-{p}" target="translation"><att name="interaction" value="AND" type="string"/></edge>
+<edge source="EIF4EBP1_[(Thr37)]-{p}" target="mTORC1_p+_EIF4EBP1_[(Ser65)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="EIF4EBP1_[(Thr37)]-{p}" target="mTORC1_p+_EIF4EBP1_[(Thr70)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="EIF4EBP1_[(Thr37)]-{p}" target="PPM1G_p-_EIF4EBP1_[(Thr37)]"><att name="interaction" value="ss" type="string"/></edge>
+<edge source="EIF4EBP1_[(Ser65)]-{p}" target="translation"><att name="interaction" value="AND" type="string"/></edge>
+<edge source="EIF4EBP1_[(Ser65)]-{p}" target="PPM1G_p-_EIF4EBP1_[(Ser65)]"><att name="interaction" value="ss" type="string"/></edge>
+<edge source="EIF4EBP1_[(Thr70)]-{p}" target="translation"><att name="interaction" value="AND" type="string"/></edge>
+<edge source="EIF4EBP1_[(Thr70)]-{p}" target="mTORC1_p+_EIF4EBP1_[(Ser65)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="EIF4EBP1_[(Thr70)]-{p}" target="PPM1G_p-_EIF4EBP1_[(Thr70)]"><att name="interaction" value="ss" type="string"/></edge>
+<edge source="eIF4E_[A001]_ppi-_EIF4EBP1_[A001]" target="EIF4EBP1_[A001]--eIF4E_[A001]"><att name="interaction" value="consume" type="string"/></edge>
+<edge source="mTORC1_p+_EIF4EBP1_[(Thr37)]" target="EIF4EBP1_[(Thr37)]-{p}"><att name="interaction" value="produce" type="string"/></edge>
+<edge source="mTORC1" target="mTORC1_p+_EIF4EBP1_[(Thr37)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="mTORC1" target="mTORC1_p+_EIF4EBP1_[(Thr46)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="mTORC1" target="mTORC1_p+_EIF4EBP1_[(Ser65)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="mTORC1" target="mTORC1_p+_EIF4EBP1_[(Thr70)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="mTORC1_p+_EIF4EBP1_[(Thr46)]" target="EIF4EBP1_[(Thr46)]-{p}"><att name="interaction" value="produce" type="string"/></edge>
+<edge source="mTORC1_p+_EIF4EBP1_[(Ser65)]" target="EIF4EBP1_[(Ser65)]-{p}"><att name="interaction" value="produce" type="string"/></edge>
+<edge source="mTORC1_p+_EIF4EBP1_[(Thr70)]" target="EIF4EBP1_[(Thr70)]-{p}"><att name="interaction" value="produce" type="string"/></edge>
+<edge source="PPM1G_p-_EIF4EBP1_[(Thr37)]" target="EIF4EBP1_[(Thr37)]-{p}"><att name="interaction" value="consume" type="string"/></edge>
+<edge source="PPM1G_p-_EIF4EBP1_[(Thr46)]" target="EIF4EBP1_[(Thr46)]-{p}"><att name="interaction" value="consume" type="string"/></edge>
+<edge source="PPM1G_p-_EIF4EBP1_[(Ser65)]" target="EIF4EBP1_[(Ser65)]-{p}"><att name="interaction" value="consume" type="string"/></edge>
+<edge source="PPM1G_p-_EIF4EBP1_[(Thr70)]" target="EIF4EBP1_[(Thr70)]-{p}"><att name="interaction" value="consume" type="string"/></edge>
+<edge source="eIF4E_[A001]_ppi+_eIF4G_[A002]" target="eIF4E_[A001]--eIF4G_[A002]"><att name="interaction" value="produce" type="string"/></edge>
+<edge source="eIF4E_[A001]--eIF4G_[A002]" target="eIF4E_[A001]_ppi-_eIF4G_[A002]"><att name="interaction" value="ss" type="string"/></edge>
+<edge source="eIF4E_[A001]--eIF4G_[A002]" target="[Output]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="[eIF4G]" target="eIF4E_[A001]_ppi+_eIF4G_[A002]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="eIF4E_[A001]_ppi-_eIF4G_[A002]" target="eIF4E_[A001]--eIF4G_[A002]"><att name="interaction" value="consume" type="string"/></edge>
+</graph>
