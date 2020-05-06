@@ -116,11 +116,9 @@
 <edge source="PI_[(4)]-{p}" target="PIPK1alpha_p+_PI_[(5)]"><att name="interaction" value="!" type="string"/></edge>
 <edge source="PI_[(4)]-{p}" target="SAC1M1L_p-_PI_[(4)]"><att name="interaction" value="ss" type="string"/></edge>
 <edge source="PI_[(4)]-{p}" target="PI45"><att name="interaction" value="AND" type="string"/></edge>
-<edge source="PI_[(4)]-{p}" target="PIP3"><att name="interaction" value="AND" type="string"/></edge>
 <edge source="PIPK1alpha_p+_PI_[(5)]" target="PI_[(5)]-{p}"><att name="interaction" value="produce" type="string"/></edge>
 <edge source="PI_[(5)]-{p}" target="SYNJ2_p-_PI_[(5)]"><att name="interaction" value="ss" type="string"/></edge>
 <edge source="PI_[(5)]-{p}" target="PI45"><att name="interaction" value="AND" type="string"/></edge>
-<edge source="PI_[(5)]-{p}" target="PIP3"><att name="interaction" value="AND" type="string"/></edge>
 <edge source="SAC1M1L_p-_PI_[(4)]" target="PI_[(4)]-{p}"><att name="interaction" value="consume" type="string"/></edge>
 <edge source="SYNJ2_p-_PI_[(5)]" target="PI_[(5)]-{p}"><att name="interaction" value="consume" type="string"/></edge>
 <edge source="PI3K_p+_PI_[(3)]" target="PI_[(3)]-{p}"><att name="interaction" value="produce" type="string"/></edge>
@@ -128,6 +126,7 @@
 <edge source="PI_[(3)]-{p}" target="PIP3"><att name="interaction" value="AND" type="string"/></edge>
 <edge source="[activatedPI3K]" target="PI3K_p+_PI_[(3)]"><att name="interaction" value="!" type="string"/></edge>
 <edge source="PI45" target="PI3K_p+_PI_[(3)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="PI45" target="PIP3"><att name="interaction" value="AND" type="string"/></edge>
 <edge source="PTEN_p-_PI_[(3)]" target="PI_[(3)]-{p}"><att name="interaction" value="consume" type="string"/></edge>
 <edge source="AKT2_[PI]_i+_PI_[PH]" target="AKT2_[PI]--PI_[PH]"><att name="interaction" value="produce" type="string"/></edge>
 <edge source="AKT2_[PI]--PI_[PH]" target="AKT2_[PI]_i-_PI_[PH]"><att name="interaction" value="ss" type="string"/></edge>
