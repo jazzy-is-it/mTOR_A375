@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+    <graph directed="1"  xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.cs.rpi.edu/XGMML">
+    <att name="selected" value="1" type="boolean" />
+    <att name="name" value="mTOR3_reg.xgmml" type="string"/>
+    <att name="shared name" value="mTOR3_reg.xgmml" type="string"/>
+    
+<node id="eIF4E_[unk]_ppi-_EIF4EBP1_[unk]" label="eIF4E_[unk]_ppi-_EIF4EBP1_[unk]"><att name="rxnconID" value="eIF4E_[unk]_ppi-_EIF4EBP1_[unk]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="EIF4EBP1_[unk]--eIF4E_[unk]" label="EIF4EBP1_[unk]--eIF4E_[unk]"><att name="rxnconID" value="EIF4EBP1_[unk]--eIF4E_[unk]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="state" type="string"/></node>
+<node id="NO" label="NO"><att name="rxnconID" value="NO" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="boolean_and" type="string"/></node>
+<node id="EIF4EBP1_[(Thr46)]-{p}" label="EIF4EBP1_[(Thr46)]-{p}"><att name="rxnconID" value="EIF4EBP1_[(Thr46)]-{p}" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="state" type="string"/></node>
+<node id="EIF4EBP1_[(Thr37)]-{p}" label="EIF4EBP1_[(Thr37)]-{p}"><att name="rxnconID" value="EIF4EBP1_[(Thr37)]-{p}" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="state" type="string"/></node>
+<node id="EIF4EBP1_[(Ser65)]-{p}" label="EIF4EBP1_[(Ser65)]-{p}"><att name="rxnconID" value="EIF4EBP1_[(Ser65)]-{p}" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="state" type="string"/></node>
+<node id="EIF4EBP1_[(Thr70)]-{p}" label="EIF4EBP1_[(Thr70)]-{p}"><att name="rxnconID" value="EIF4EBP1_[(Thr70)]-{p}" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="state" type="string"/></node>
+<node id="eIF4E_[unk]_ppi+_EIF4EBP1_[unk]" label="eIF4E_[unk]_ppi+_EIF4EBP1_[unk]"><att name="rxnconID" value="eIF4E_[unk]_ppi+_EIF4EBP1_[unk]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="mTORC1_p+_EIF4EBP1_[(Thr37)]" label="mTORC1_p+_EIF4EBP1_[(Thr37)]"><att name="rxnconID" value="mTORC1_p+_EIF4EBP1_[(Thr37)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="[mTORC1]" label="[mTORC1]"><att name="rxnconID" value="[mTORC1]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="input" type="string"/></node>
+<node id="mTORC1_p+_EIF4EBP1_[(Thr46)]" label="mTORC1_p+_EIF4EBP1_[(Thr46)]"><att name="rxnconID" value="mTORC1_p+_EIF4EBP1_[(Thr46)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="mTORC1_p+_EIF4EBP1_[(Ser65)]" label="mTORC1_p+_EIF4EBP1_[(Ser65)]"><att name="rxnconID" value="mTORC1_p+_EIF4EBP1_[(Ser65)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="mTORC1_p+_EIF4EBP1_[(Thr70)]" label="mTORC1_p+_EIF4EBP1_[(Thr70)]"><att name="rxnconID" value="mTORC1_p+_EIF4EBP1_[(Thr70)]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="reaction" type="string"/></node>
+<node id="[Output]" label="[Output]"><att name="rxnconID" value="[Output]" type="string"/><att name="attr_dict" value="None" type="string"/><att name="type" value="output" type="string"/></node>
+<edge source="eIF4E_[unk]_ppi-_EIF4EBP1_[unk]" target="EIF4EBP1_[unk]--eIF4E_[unk]"><att name="interaction" value="consume" type="string"/></edge>
+<edge source="EIF4EBP1_[unk]--eIF4E_[unk]" target="eIF4E_[unk]_ppi-_EIF4EBP1_[unk]"><att name="interaction" value="ss" type="string"/></edge>
+<edge source="EIF4EBP1_[unk]--eIF4E_[unk]" target="mTORC1_p+_EIF4EBP1_[(Thr37)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="EIF4EBP1_[unk]--eIF4E_[unk]" target="mTORC1_p+_EIF4EBP1_[(Thr46)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="EIF4EBP1_[unk]--eIF4E_[unk]" target="mTORC1_p+_EIF4EBP1_[(Ser65)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="EIF4EBP1_[unk]--eIF4E_[unk]" target="mTORC1_p+_EIF4EBP1_[(Thr70)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="NO" target="eIF4E_[unk]_ppi-_EIF4EBP1_[unk]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="NO" target="eIF4E_[unk]_ppi+_EIF4EBP1_[unk]"><att name="interaction" value="x" type="string"/></edge>
+<edge source="EIF4EBP1_[(Thr46)]-{p}" target="NO"><att name="interaction" value="AND" type="string"/></edge>
+<edge source="EIF4EBP1_[(Thr46)]-{p}" target="mTORC1_p+_EIF4EBP1_[(Ser65)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="EIF4EBP1_[(Thr46)]-{p}" target="mTORC1_p+_EIF4EBP1_[(Thr70)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="EIF4EBP1_[(Thr46)]-{p}" target="[Output]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="EIF4EBP1_[(Thr37)]-{p}" target="NO"><att name="interaction" value="AND" type="string"/></edge>
+<edge source="EIF4EBP1_[(Thr37)]-{p}" target="mTORC1_p+_EIF4EBP1_[(Ser65)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="EIF4EBP1_[(Thr37)]-{p}" target="mTORC1_p+_EIF4EBP1_[(Thr70)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="EIF4EBP1_[(Thr37)]-{p}" target="[Output]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="EIF4EBP1_[(Ser65)]-{p}" target="NO"><att name="interaction" value="AND" type="string"/></edge>
+<edge source="EIF4EBP1_[(Ser65)]-{p}" target="[Output]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="EIF4EBP1_[(Thr70)]-{p}" target="NO"><att name="interaction" value="AND" type="string"/></edge>
+<edge source="EIF4EBP1_[(Thr70)]-{p}" target="[Output]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="eIF4E_[unk]_ppi+_EIF4EBP1_[unk]" target="EIF4EBP1_[unk]--eIF4E_[unk]"><att name="interaction" value="produce" type="string"/></edge>
+<edge source="mTORC1_p+_EIF4EBP1_[(Thr37)]" target="EIF4EBP1_[(Thr37)]-{p}"><att name="interaction" value="produce" type="string"/></edge>
+<edge source="[mTORC1]" target="mTORC1_p+_EIF4EBP1_[(Thr37)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="[mTORC1]" target="mTORC1_p+_EIF4EBP1_[(Thr46)]"><att name="interaction" value="!" type="string"/></edge>
+<edge source="mTORC1_p+_EIF4EBP1_[(Thr46)]" target="EIF4EBP1_[(Thr46)]-{p}"><att name="interaction" value="produce" type="string"/></edge>
+<edge source="mTORC1_p+_EIF4EBP1_[(Ser65)]" target="EIF4EBP1_[(Ser65)]-{p}"><att name="interaction" value="produce" type="string"/></edge>
+<edge source="mTORC1_p+_EIF4EBP1_[(Thr70)]" target="EIF4EBP1_[(Thr70)]-{p}"><att name="interaction" value="produce" type="string"/></edge>
+</graph>
