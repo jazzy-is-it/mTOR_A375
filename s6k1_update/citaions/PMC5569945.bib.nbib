@@ -1,0 +1,22 @@
+@Article{Ghosh2017,
+author={Ghosh, Joydeep
+and Kapur, Reuben},
+title={Role of mTORC1-S6K1 signaling pathway in regulation of hematopoietic stem cell and acute myeloid leukemia},
+journal={Experimental hematology},
+year={2017},
+month={Jun},
+edition={2017/03/22},
+volume={50},
+pages={13-21},
+keywords={Animals; Antineoplastic Agents/pharmacology/therapeutic use; Enzyme Activation/drug effects; Hematopoiesis/drug effects; Hematopoietic Stem Cells/drug effects/*metabolism; Humans; Leukemia, Myeloid, Acute/drug therapy/*metabolism/pathology; Mechanistic Target of Rapamycin Complex 1; Multiprotein Complexes/*metabolism; Neoplastic Stem Cells/drug effects/*metabolism/pathology; Protein Kinase Inhibitors/pharmacology/therapeutic use; Ribosomal Protein S6 Kinases, 70-kDa/*metabolism; *Signal Transduction/drug effects; TOR Serine-Threonine Kinases/*metabolism},
+abstract={Dysregulation of the mechanistic target of rapamycin complex 1 (mTORC1)-p70 ribosomal protein kinase 1 (S6K1) signaling pathway occurs frequently in acute myeloid leukemia (AML) patients. This pathway also plays a critical role in maintaining normal cellular processes. Given the importance of leukemia stem cells (LSCs) in the development of minimal residual disease, it is critical to use therapeutic interventions that target the LSC population to prevent disease relapse. The mTORC1-S6K1 pathway has been identified as an important regulator of hematopoietic stem cell (HSC) and LSC functions. Both HSC and LSC functions require regulation of key cellular processes including proliferation, metabolism, and autophagy, which are regulated by mTORC1 pathway. Despite the mTORC1-S6K1 pathway being a critical regulator of AML initiation and progression, inhibitors of this pathway alone have yielded mixed results in clinical studies. Recent studies have identified strategies to develop new mTORC1-S6K1 inhibitors such as RapaLink-1, which could circumvent the drug resistance observed in AML cells and in LSCs. Here, we review recent advances made in identifying the role of different components of this pathway in the regulation of HSCs and LSCs and discuss possible therapeutic approaches.},
+note={28342808[pmid]},
+note={PMC5569945[pmcid]},
+note={S0301-472X(17)30063-2[PII]},
+issn={1873-2399},
+doi={10.1016/j.exphem.2017.02.004},
+url={https://pubmed.ncbi.nlm.nih.gov/28342808},
+url={https://doi.org/10.1016/j.exphem.2017.02.004},
+language={eng}
+}
+
